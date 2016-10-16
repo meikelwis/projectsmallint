@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Booking Form</title>
+        <link rel="stylesheet" href="bookingForm.css"> </head>
+
+    <body>
+        <div class="container">
+            <div class="tabs">
+                <!--        Link -->
+                <ul class="tab-links">
+                    <li class="active">
+                    <li><a href id="#tab1"> Booking </a> </li>
+                    <li><a href id="#tab2"> Update</a> </li>
+                    <li><a href id="#tab3"> Information </a> </li>
+                </ul>
+                <hr>
+                <!--          tab  body-->
+                <div class="tab-content">
+                    <div id="tab1" class="tab active">
+                        <form action="">
+                            <h2 class="title">BOOKING FORM</h2>
+                            <hr>
+                            <p>
+                                <label for="username">
+                                    Username:</label>
+                                <input type="text" name="username" size="15" maxlength="30" required="required"><br>
+                            </p>
+                            <p>
+                                <label for="password">
+                                    Password:</label>
+                                <input type="password" name="password" size="15" maxlength="30" required="require"><br>
+                            </p>
+                            <p>
+                                <label for="description">
+                                    Description:</label>
+                                <textarea name="description" id="description" cols="20" rows="2"></textarea><br>
+                            </p>
+                            <p>
+                                <label for="filename">
+                                    File Name:</label>
+                                <input type="text" name="filename" size="15" maxlength="10" required="required"><br>
+                            </p>
+                            <p>
+                                <label for="objectdate">
+                                    Object Date:</label>
+                                <input type="date" name="objectdate" size="15" maxlength="10" required="required"><br>
+                            </p>
+                            <p>
+                                <label for="getdate">
+                                    Get Date:</label>
+                                <input type="date" name="getdate" size="15" maxlength="10" required="required"><br>
+                            </p>
+                            <p>
+                                <input type="submit" value="Submit">
+                            </p>
+                        </form>
+                        <hr>  
+                        <div class="contentgrid">
+                            <h2 class="title">LIST OF BOOKING</h2>
+                            <ol>
+                                <li>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam omnis tempore suscipit quisquam assumenda quo! Inventore unde possimus est saepe, ducimus nostrum molestiae, quasi pariatur eveniet amet earum harum dolorem!
+                                </li>
+                                <li>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam omnis tempore suscipit quisquam assumenda quo! Inventore unde possimus est saepe, ducimus nostrum molestiae, quasi pariatur eveniet amet earum harum dolorem!
+                                </li>
+                                <li>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam omnis tempore suscipit quisquam assumenda quo! Inventore unde possimus est saepe, ducimus nostrum molestiae, quasi pariatur eveniet amet earum harum dolorem!
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div id="tab2" class="tab">
+                        <p>Tab #2 contents goes here!</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, cum tempora possimus quaerat sed odio, at fuga in voluptatem eveniet soluta recusandae mollitia aliquid incidunt. Ratione illo quas, fugiat reprehenderit.</p>
+                    </div>
+                    <div id="tab3" class="tab">
+                        <p>Tab #3 contents goes here!</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, cum tempora possimus quaerat sed odio, at fuga in voluptatem eveniet soluta recusandae mollitia aliquid incidunt. Ratione illo quas, fugiat reprehenderit.</p>
+                    </div>
+                </div>
+                <script type="text/javascript" src="bookingForm.js">
+                </script>
+            </div>
+
+        </div>
+    </body>
+
+</html>
